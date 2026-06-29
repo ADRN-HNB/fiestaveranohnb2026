@@ -259,6 +259,23 @@
       aspect-ratio: 16 / 9;
     }
 
+
+    .hero-photo {
+      width: 100%;
+      margin: 22px 0 24px;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,.55);
+      background: rgba(255,255,255,.30);
+      box-shadow: 0 12px 28px rgba(0,0,0,.12);
+      display: block;
+    }
+
     video {
       width: 100%;
       max-height: 56svh;
@@ -372,10 +389,8 @@
         <h2>Despedirnos antes del verano en nuestra nueva oficina</h2>
         <p>Heart and Brain · C. de Miguel Yuste, 16, 2 D, San Blas-Canillejas, 28037 Madrid.</p>
 
-        <div class="gallery">
-          <img src="assets/foto-1.jpg" alt="Foto 1" onerror="this.style.display='none'">
-          <img src="assets/foto-2.jpg" alt="Foto 2" onerror="this.style.display='none'">
-          <img src="assets/foto-3.jpg" alt="Foto 3" onerror="this.style.display='none'">
+        <div class="hero-photo">
+          <img src="assets/foto-1.jpg" alt="Foto principal del evento" onerror="this.style.display='none'">
         </div>
 
         <div class="button-stack">
